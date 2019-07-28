@@ -1,0 +1,19 @@
+{
+  "name": "promise-fs",
+  "version": "1.0.0",
+  "description": "NodeJS FileSystem that returns promise instead of taking a callback function.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aameen951/promise-fs.git"
+  },
+  "author": "Ameen Sayegh",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/aameen951/promise-fs/issues"
+  },
+  "homepage": "https://github.com/aameen951/promise-fs#readme"
+}
