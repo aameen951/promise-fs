@@ -36,6 +36,14 @@ function mkdir(path, options)
     });
   });
 }
+function readdir(path, options){
+  return new Promise((resolve, reject) => {
+    fs.readdir(path, options, (err, files) => {
+      if(err)reject(err);
+      else resolve(files);
+    });
+  });
+}
 async function ensureDirExists(path, options)
 {
   try
@@ -53,5 +61,6 @@ module.exports = {
   readFile,
   writeFile,
   mkdir,
+  readdir,
   ensureDirExists,
 };
